@@ -5,5 +5,5 @@ const { port } = require('./constants');
 
 const server = new ApolloServer(schema);
 
-server.listen(port)
+server.listen({ port })
   .then(({ url }) => console.log(`Server running @ ${url}`));
