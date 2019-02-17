@@ -42,7 +42,7 @@ class AddUser extends Component {
               <div className={styles.container}>
                 <input className={styles.input} type="text" placeholder='First name' name="first_name" value={first_name} onChange={this.handleInput} />
                 <input className={styles.input} type="text" placeholder='Last Name' name="last_name" value={last_name} onChange={this.handleInput} />
-                <button className={styles.button} onClick={() => this.saveUser(addUser)}>Save User</button>
+                <button className='btn' onClick={() => this.saveUser(addUser)}>Save User</button>
               </div>
             )
 

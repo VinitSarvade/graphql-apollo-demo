@@ -41,7 +41,7 @@ const renderUsers = ({ users }) => (
 const Users = () => {
   return (
     <div className={styles.App}>
-      <Link to='/add-user'>Add User</Link>
+      <Link className='btn' to='/add-user'>Add User</Link>
       <Query query={GET_USERS}>
         {
           ({ loading, error, data }) => {
