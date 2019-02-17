@@ -1,0 +1,13 @@
+.container {
+  width: 50%;
+  padding: 32px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  .input {
+    padding: 6px 12px;
+    border: 1px solid #333;
+    margin: 12px 0;
+    outline: none;
+  }
+}

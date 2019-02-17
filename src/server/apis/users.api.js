@@ -12,7 +12,7 @@ class UsersApi extends RESTDataSource {
   }
 
   async getAll() {
-    const response = await this.get('/users');
+    const response = await this.get('/users', { per_page: 20 });
     return response.data;
   }
 
