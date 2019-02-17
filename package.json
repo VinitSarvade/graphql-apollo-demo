@@ -6,7 +6,8 @@
   "scripts": {
     "server": "node ./src/server/index.js",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "postinstall": "yarn build"
   },
   "dependencies": {
     "apollo-boost": "^0.1.28",
